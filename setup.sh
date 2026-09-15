@@ -3321,7 +3321,7 @@ git clone https://github.com/paulc/dnslib.git /tmp/dnslib
 
 # Клонируем репозиторий antizapret
 rm -rf /tmp/antizapret
-git clone https://github.com/Nessusd/AntiZapret-VPN-ipv6.git /tmp/antizapret
+git clone https://github.com/dkostelyanets/azipv6.git /tmp/antizapret
 if [[ ! -d /tmp/dnslib/dnslib ]]; then
 	echo 'Error: dnslib package directory is missing'
 	exit 20
